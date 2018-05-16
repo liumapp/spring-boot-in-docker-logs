@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  rabbitmq:
+    image: liumapp/spring-boot-in-docker-logs:v1.0.0
+    restart: always
+    container_name: rabbitmq
+    hostname: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: "springcloud"
+      RABBITMQ_DEFAULT_PASS: "123456"
+    ports:
+      - "5672:5672"
+      - "15672:15672"

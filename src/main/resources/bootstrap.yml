@@ -17,5 +17,8 @@ logging:
   level:
     com: WARN
     cc: WARN
-  path: ./logs
+    org: WARN
+    io: WARN
+    javax: WARN
+  path: /var/run/logs
 
