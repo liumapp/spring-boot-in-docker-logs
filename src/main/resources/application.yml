@@ -20,5 +20,5 @@ logging:
     org: WARN
     io: WARN
     javax: WARN
-  path: /var/run/logs
+  path: /tmp/logs/
 
