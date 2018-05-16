@@ -9,4 +9,5 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./logs/spring-boot-in-docker-logs/:/tmp/logs/
+      - ./logs/spring-boot-in-docker-logs/:/tmp/logs/spring-boot-in-docker-logs/
+

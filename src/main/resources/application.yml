@@ -20,5 +20,5 @@ logging:
     org: WARN
     io: WARN
     javax: WARN
-  path: /tmp/logs/
+  path: /tmp/logs/spring-boot-in-docker-logs
 
